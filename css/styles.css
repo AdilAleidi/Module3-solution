@@ -1,0 +1,92 @@
+body{
+    font-size: 16px;
+    color: rgb(68, 47, 47);
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(54, 26, 26);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+#header-nav{
+    background-color: #df9f14;
+    border-radius: 0;
+    border: 0;
+    height: 55.5px;
+
+	
+}
+#header-nav a{
+    margin-top: -11px;
+    color: rgb(136, 109, 109); 
+
+}
+
+
+.navbar-brand{
+    padding: 10px; 
+}
+.navbar-brand h1{
+    font-family: 'Epilogue', sans-serif;
+    color: rgb(37, 36, 36);
+    font-size: 2.3em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(1, 2, 5);
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    padding: 10px;
+}
+.container-fluid{
+margin-top: 5px;
+padding: 0;
+margin: 5px;
+
+}
+.menu{
+    text-align: center;
+    color: #fff;
+    font-size: 1.8em;
+    margin-top: 50px;
+}
+.container .row > div{
+    color: rgb(250, 226, 226);
+    border: 2px solid rgb(196, 42, 42);
+    background-color: rgb(150, 84, 31);
+   margin-top: 20px;
+   margin-bottom: 20px;
+   z-index: -999;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid rgb(255, 255, 255);    
+
+}
+.navbar-header button.navbar-toggle{
+    background-color: rgb(255, 123, 0);
+}
+
+ul a{
+    background-color:#df9f14;
+    
+
+}
+
+/*********Extra Small devices only ************/
+@media (max-width:767px){
+    html, body {
+        width: auto !important;
+        overflow-x: hidden !important;
+        }
+    .container{
+        width:80%;
+    }
+    
+   
+         
+}
+/********* Super extra small devices only (e.g., iPhone 4 ************/
+
+@media (max-width:479px){
+    .container{
+        width:80%;
+}
